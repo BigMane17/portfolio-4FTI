@@ -1,0 +1,40 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #131313;
+  color: #f8f8f8;
+}
+footer .footer-container {
+  display: flex;
+  max-width: 1110px;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.app-navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.app-navbar .navbar-items {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+}
+.app-navbar .navbar-items .nav-links {
+  text-decoration: none;
+  color: greenyellow;
+}
+.app-navbar .navbar-items .nav-links:hover {
+  color: #f8f8f8;
+  font-size: 20px;
+}/*# sourceMappingURL=app.css.map */
